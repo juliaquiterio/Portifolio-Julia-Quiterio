@@ -5,9 +5,8 @@ Este repositório é dedicado ao Portifólio dos Projetos Integradores que envol
 
 # Sobre mim
 
-<div style="text-align: center;">
-    <img src="julia.png" width="300" height="320" alt="Imagem de Júlia">
-</div>
+
+<p align="center"><img src="julia.png" width="300" height="320" alt="Imagem de Júlia"></p>
 
 <br>
 
