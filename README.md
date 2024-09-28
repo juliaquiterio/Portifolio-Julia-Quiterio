@@ -5,7 +5,7 @@ Este repositório é dedicado ao Portifólio dos Projetos Integradores que envol
 
 # Sobre mim
 
-<center> <img src="julia.png" width="300" height="320"></center>
+<center><img src="julia.png" width="300" height="320"></center>
 <br>
 
 Me chamo Júlia Pereira Quitério, e sou estudante de Banco de Dados (6º semestre) na Fatec de São José dos Campos (SP). Tenho grande admiração pelo universo dos dados e da tecnologia. Atualmente, atuo como Analista de Dados com foco em meios de pagamento, onde posso aplicar e ampliar meus conhecimentos. Tenho buscado destacar meus aprendizados e torná-los cada vez mais visíveis, sempre aberta a contribuir e a aprender. Trabalhar com os projetos APIs tem me permitido expandir minhas habilidades, não apenas em Banco de Dados, mas também em outras áreas técnicas (hard skills) e de desenvolvimento pessoal (soft skills), enriquecendo minha abordagem profissional.
