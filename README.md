@@ -1,7 +1,7 @@
-# Portifólio •  Júlia Pereira Quitério
-Repositório Dedicado ao Portifólio do API - Banco de Dados
+# Portfólio •  Júlia Pereira Quitério
+Repositório Dedicado ao Portfólio do API - Banco de Dados
 
-Este repositório é dedicado ao Portifólio dos Projetos Integradores que envolve o API , que são projetos dedicados a aplicação de todo o Aprendizado repassado em sala de aula, com o objetivo de maior aproveitamento de todo o conhecimento adquirido.
+Este repositório é dedicado ao Portfólio dos Projetos Integradores que envolve o API , que são projetos dedicados a aplicação de todo o Aprendizado repassado em sala de aula, com o objetivo de maior aproveitamento de todo o conhecimento adquirido.
 
 # Sobre mim
 
@@ -257,6 +257,345 @@ Como desenvolvedora, tive a oportunidade de aprender, inicialmente, sobre o que 
 
 
 </details>
+
+----
+
+details><summary>2º semestre</summary>
+
+
+<h3> 2º semestre - 2/2022 </h3>
+
+Parceiro Acadêmico: <a href="https://www.pro4tech.com.br/">Pro4Tech</a>
+
+
+<h4>Link do repositório:</h4>
+
+<p align="left">
+ <a href="https://github.com/Codados/PRO4Jobs">Acesse aqui</a>
+</p>
+
+<div align="center">
+
+<img src="pro4jobs.png" alt="Grupo Codados" width="300" height="290">
+
+
+
+</div>
+
+
+
+<h2>Pro4Jobs</h2>
+
+<h3>Descrição do Projeto</h3>
+Pro4Jobs é uma aplicação Desktop com o objetivo de gerenciar vagas de emprego, otimizar o trabalho das pessoas do setor de Recursos Humanos.
+
+
+
+<h4><li><b>Desafio Proposto</b></li></h4>
+        <p align="justify">
+       O cliente da Pro4Tech nos desafiou a criar uma aplicação DeskTop para auxiliar o setor de Recursos Humanos para gerenciar as vagas de emprego da empresa.Foi usada a linguagem Java como principal para o desenvolvimento da aplicação.
+        </p>
+
+
+
+
+<summary><h2>Tecnologias Aplicadas</h2></summary>
+<img src="java.png" width="150" height="150">
+
+
+</p>
+          <a href="https://www.python.org/">JAVA</a>
+          <p align="justify">
+         Java é uma linguagem de programação orientada a objetos, lançada em 1995, conhecida por ser multiplataforma graças à JVM. É usada em aplicativos web, móveis e sistemas corporativos, valorizada por sua segurança e robustez. No projeto foi utilizado com um dos requisitos especificados e foi a principal linguagem para construção da aplicacão web. Abaixo tenho listadas as bibliotecas que utilizamos: </p>
+
+<img src="phpadmin.png" width="150" height="100">
+
+<a href="https://www.phpmyadmin.net/">PHPAdmin</a>
+          <p align="justify">
+         PHPAdmin é uma ferramenta de administração de bancos de dados MySQL ou MariaDB baseada na web, escrita em PHP. Ela permite gerenciar facilmente bancos de dados, tabelas, colunas, registros e usuários através de uma interface amigável, sem necessidade de comandos SQL complexos. Usamos para manipular as consultas no banco de dados. </p>
+
+
+<img src="mysql.png" width="150" height="150">
+
+
+<a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a>
+          <p align="justify">
+         O MySQL Workbench é uma ferramenta gráfica oficial para gerenciar bancos de dados MySQL. Ele facilita tarefas como criação de tabelas, execução de consultas, backup e modelagem de dados com diagramas ER, sendo muito usado para administrar e visualizar bancos de dados. </p>
+
+
+<img src="oracle.png" width="150" height="100">
+
+
+<a href="https://www.oracle.com/br/database/">Oracle</a>
+          <p align="justify">
+         O Oracle Database é um sistema de banco de dados robusto e escalável, projetado para gerenciar grandes volumes de dados em empresas. Ele oferece alta segurança, disponibilidade e suporte para transações complexas, sendo popular em ambientes corporativos. </p>
+
+
+
+<h2>Contribuições Pessoais</h2>
+
+
+<details>
+    <summary>Backend</summary>
+
+  __Desenvolvimento Relatório do RH:__
+   Como desenvolvedora eu pude lidar com a Tecnologia de Java , onde utilizei-a para que o Usuário pudesse acessar o relatório geral das vagas de emprego.
+
+Veja abaixo um exemplo do Script (Parcial):
+
+```
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package View;
+
+import DAO.ConexaoDAO;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+ *
+ * @author apqui
+ */
+public class RelatorioRH extends javax.swing.JFrame {
+
+    Connection conn;
+    PreparedStatement pstm;
+    ResultSet rs;
+
+    /**
+     * Creates new form RelatorioRH
+     */
+    public RelatorioRH() {
+        initComponents();
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jButton3 = new javax.swing.JButton();
+        Candidatos = new javax.swing.JButton();
+        btnVagas = new javax.swing.JButton();
+        RH = new javax.swing.JButton();
+        Aprovados = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+
+        jButton3.setText("jButton3");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Candidatos.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        Candidatos.setForeground(new java.awt.Color(255, 255, 255));
+        Candidatos.setText("Candidatos");
+        Candidatos.setBorder(null);
+        Candidatos.setBorderPainted(false);
+        Candidatos.setContentAreaFilled(false);
+        Candidatos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CandidatosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Candidatos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 260, 40));
+
+        btnVagas.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnVagas.setForeground(new java.awt.Color(255, 255, 255));
+        btnVagas.setText("Vagas");
+        btnVagas.setBorderPainted(false);
+        btnVagas.setContentAreaFilled(false);
+        btnVagas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVagasActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnVagas, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, 240, 50));
+
+        RH.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        RH.setForeground(new java.awt.Color(255, 255, 255));
+        RH.setText("RH");
+        RH.setBorderPainted(false);
+        RH.setContentAreaFilled(false);
+        RH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RHActionPerformed(evt);
+            }
+        });
+        getContentPane().add(RH, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, 200, 40));
+
+        Aprovados.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        Aprovados.setForeground(new java.awt.Color(255, 255, 255));
+        Aprovados.setText("Aprovados");
+        Aprovados.setBorderPainted(false);
+        Aprovados.setContentAreaFilled(false);
+        Aprovados.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AprovadosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Aprovados, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, -1, 40));
+
+        jButton1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Sair");
+        jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 480, 130, 30));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/tela_relat_princ.png"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 730, 530));
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void CandidatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CandidatosActionPerformed
+        Create_Candidato_Csv();    }//GEN-LAST:event_CandidatosActionPerformed
+
+    private void btnVagasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVagasActionPerformed
+        // TODO add your handling code here:
+        Create_Vaga_Csv();
+    }//GEN-LAST:event_btnVagasActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+            // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void AprovadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AprovadosActionPerformed
+        // TODO add your handling code here:
+        Create_Aprovados_Csv();
+    }//GEN-LAST:event_AprovadosActionPerformed
+
+    private void RHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RHActionPerformed
+        // TODO add your handling code here:
+        Create_rh_Csv();
+    }//GEN-LAST:event_RHActionPerformed
+
+```
+
+
+
+
+```
+ <?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton3"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,6,0,0,2,-38"/>
+  </AuxValues>
+
+```
+
+  __Organização do Readme do Projeto:__
+   Como desenvolvedora eu pude organizar e ccentralizar as principais informações do projeto no Readme para que o usuário que for ler entenda as principais ideias e demais informações  importantes do projeto.
+
+Veja abaixo um exemplo do Script (Parcial):
+
+```
+<h1 align="center"> Grupo Codados</h1>
+
+
+<p align = "center">
+<img width="460" height="460" src="Imagens_projeto/PRO4Jobs.gif">
+</p>
+<br>
+
+## Sobre o Projeto PRO4Jobs :desktop_computer:
+
+* PRO4Jobs é uma aplicação Desktop com o objetivo de gerenciar vagas de emprego, otimizar o trabalho das pessoas do setor de Recursos Humanos;
+* O Candidato poderá vizualizar e se candidatar as vagas de emprego que o RH disponibilizará;
+* Este Projeto tem como Cliente a empresa PRO4TECH;
+* A aplicação tem como linguagem de programação o Java, pois foi a linguagem designada para o Segundo Semestre de Banco de Dados;
+* Para registrar vagas, candidatos e o pessoal do RH, é necessário a criação de um Banco de Dados, o qual será conectado com a linguagem Java;
+* Utilizando a Metodologia Scrum, a equipe pode desenvolver este Projeto com agilidade, qualidade e boa organização.
+<br>
+
+## Informações sobre o Cliente :technologist:
+
+| Cliente | Contato |
+| --- | --- |
+| `Rafael Monteiro` | rafael.monteiro@pro4tech.com.br |
+
+<br>
+
+## Integrantes do grupo :woman_technologist: :man_technologist: : </br>
+| Integrante | Função |
+| --- | --- |
+| `Cainan Thomas Branco Santos` | Desenvolvedor <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/cainan-santos-70938094/ "link")|
+| `Daniele de Jesus Souza` | Desenvolvedora <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/daniele-de-jesus-souza-35859a209 "link")|
+| `Felipe dos Santos Bispo` |  Desenvolvedor <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/felipe-bispo-632104235/ "link") |
+| `Guilherme Augusto Wunderlich Serapião` | Desenvolvedor <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/guilherme-wunderlich-aa56a2228/ "link") |
+| `Júlia Pereira Quitério` | Desenvolvedora <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/j%C3%BAlia-quit%C3%A9rio-934894205/ "link") |
+| `Lucas Emanoel Teixeira Engracio da Silva` |Product Owner <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/lucas-emanoel-teixeira-engracio-da-silva-ab5611234/ "link")|
+| `Marcella Yanes Borges do Amaral` | Scrum Master <br><p align = "center">[<img width="35" height="35" src="Imagens_projeto/link.png"></p>](https://www.linkedin.com/in/marcella-yanes-589371209/ "link")|
+<br>
+...
+```
+
+<h2>Lições Aprendidas</h2>
+
+
+<p>
+
+Como desenvolvedora, tive a oportunidade de aprender e aplicar técnicas avançadas em Java, utilizando a linguagem para criar soluções eficazes em minhas aplicações. Essa prática me permitiu aprimorar minhas habilidades e entender o valor real desses conceitos, aplicando com sucesso o que aprendi em sala de aula e elevando a qualidade dos projetos desenvolvidos.
+
+
+   __- Hard Skills:__ <br>
+   Java <br>
+   HTML <br>
+   Metodologia Ágil | Scrum
+
+   __- Soft Skills:__ <br>
+   Comunicação <br>
+   Proatividade <br>
+   Trabalho em equipe
+</p>
+
+
+
+
+</details>
+
 
 ----
 
