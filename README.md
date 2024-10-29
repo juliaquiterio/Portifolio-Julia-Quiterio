@@ -260,7 +260,7 @@ Como desenvolvedora, tive a oportunidade de aprender, inicialmente, sobre o que 
 
 ----
 
-details><summary>2º semestre</summary>
+<details><summary>2º semestre</summary>
 
 
 <h3> 2º semestre - 2/2022 </h3>
@@ -596,6 +596,7 @@ Como desenvolvedora, tive a oportunidade de aprender e aplicar técnicas avança
 
 </details>
 
+</details>
 
 ----
 
