@@ -1,7 +1,9 @@
 # Portfólio •  Júlia Pereira Quitério
-Repositório Dedicado ao Portfólio do API - Banco de Dados
 
-Este repositório é dedicado ao Portfólio dos Projetos Integradores que envolve o API , que são projetos dedicados a aplicação de todo o Aprendizado repassado em sala de aula, com o objetivo de maior aproveitamento de todo o conhecimento adquirido.
+__Repositório Dedicado ao Portfólio do API | Banco de Dados__
+
+Este repositório apresenta o Portfólio de Projetos Integradores (APIs), desenvolvidos para aplicar o aprendizado obtido em sala de aula e maximizar a assimilação do conhecimento. O Trabalho de Graduação (TG) na modalidade Portfólio das Aprendizagens foi elaborado com base nesses Projetos Integradores e apresentado à Faculdade de Tecnologia de São José dos Campos como requisito para a obtenção do título de Tecnóloga em Banco de Dados.
+
 
 # Sobre mim
 
@@ -10,9 +12,9 @@ Este repositório é dedicado ao Portfólio dos Projetos Integradores que envolv
 
 <br>
 
-Me chamo Júlia Pereira Quitério, e sou estudante de Banco de Dados (6º semestre) na Fatec de São José dos Campos (SP). Tenho grande admiração pelo universo dos dados e da tecnologia. Atualmente, atuo como Analista de Dados com foco em meios de pagamento, onde posso aplicar e ampliar meus conhecimentos. Tenho buscado destacar meus aprendizados e torná-los cada vez mais visíveis, sempre aberta a contribuir e a aprender. Trabalhar com os projetos APIs tem me permitido expandir minhas habilidades, não apenas em Banco de Dados, mas também em outras áreas técnicas (hard skills) e de desenvolvimento pessoal (soft skills), enriquecendo minha abordagem profissional.
+Me chamo Júlia Pereira Quitério, e sou estudante de Banco de Dados (6º semestre) na Fatec de São José dos Campos (SP). Tenho grande admiração pelo universo dos dados e da tecnologia. Atualmente, como Analista de Dados na empresa Elo cartões que tem como foco meios de pagamento, onde posso aplicar e ampliar meus conhecimentos. Tenho buscado destacar meus aprendizados e torná-los cada vez mais visíveis, sempre aberta a contribuir e a aprender. Trabalhar com os projetos APIs tem me permitido expandir minhas habilidades, não apenas em Banco de Dados, mas também em outras áreas técnicas (hard skills) e de desenvolvimento pessoal (soft skills), enriquecendo minha abordagem profissional.
 
-Este Trabalho de Graduação (TG), na modalidade Portfólio das Aprendizagens, foi desenvolvido a partir de um Projeto Integrador (APIs) e apresentado à Faculdade de Tecnologia de São José dos Campos como parte dos requisitos para a obtenção do título de Tecnóloga em Banco de Dados.
+
 
 # Projetos API
 
@@ -39,18 +41,17 @@ Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Fatec Pro
 </div>
 
 
-
 <h2>Assistente Virtual de Viagens</h2>
 
 <h3>Descrição do Projeto</h3>
-Mó Viagem é uma assistente virtual é uma aplicação web feita em <a href="https://www.python.org/">Python</a> criada para ajudar turistas a planejar roteiros de viagem. Nossa missão é mostrar aos usuários como eles podem explorar e aproveitar ao máximo as belezas de seu próprio país, muitas vezes ainda desconhecidas ou subestimadas.
+Mó Viagem é uma assistente virtual feita em aplicação web desenvolvida na linguagem de programação <a href="https://www.python.org/">Python</a>, criada para auxiliar turistas a planejar roteiros de viagem. Nossa missão é mostrar aos usuários como eles podem explorar e aproveitar ao máximo as belezas de seu próprio país, muitas vezes ainda desconhecidas ou subestimadas.
 
 
 
 
 <h4><li><b>Desafio Proposto</b></li></h4>
         <p align="justify">
-       O professor Fabiano Sabha que representa o nosso cliente (Fatec Prof. Jassen Vidal) propôs o desafio de criar uma assistente virtual utilizando python como linguagem principal, ficando a critério do Grupo escoher a finalidade para tal.
+       O professor Fabiano Sabha, que representa o nosso cliente, propôs o desafio de criar uma assistente virtual utilizando python como linguagem principal, ficando a critério do Grupo do API escoher a finalidade para tal.
         </p>
 
 
@@ -86,7 +87,7 @@ Mó Viagem é uma assistente virtual é uma aplicação web feita em <a href="ht
     <summary>Backend</summary>
 
   __Desenvolvimento do Roteiro e Curiosidades:__
-   Como desenvolvedora eu pude lidar com a Tecnologia do Python , utilizando as bibliotecas da Wikepedia, PyAudio,  Re e Webbrower, onde utilizei a junção dessas bibliotecas para que o Usuário pudesse saber mais sobre os roteiros das cidades onde ele buscava a partir de uma chamada HTTPS na Wekipedia como referência e ele conseguia ouvir e assim ter uma gama de roteiros em que ele pudesse explorar, e sobre curiosidades daquele local que ele estava perguntando a Assistente Virtual.
+   Como desenvolvedora eu pude lidar com a Tecnologia do Python , utilizando as bibliotecas da Wikipedia, PyAudio,  Re e Webbrower. Utilizei a junção dessas bibliotecas para que o Usuário pudesse saber mais sobre os roteiros das cidades onde ele buscava a partir de uma chamada HTTPS na Wikipedia como referencia. O usuário conseguia ouvir e assim ter uma gama de roteiros em que ele pudesse explorar e saber sobre curiosidades daquele local que ele estava perguntando a Assistente Virtual.
 
 Veja abaixo um exemplo do Script:
 
@@ -602,7 +603,7 @@ Como desenvolvedora, tive a oportunidade de aprender e aplicar técnicas avança
 
 <details><summary>3º semestre</summary>
 
-<h3> 3º semestre - 2/2023 </h3>
+<h3> 3º semestre - 1/2023 </h3>
 
 Parceiro Acadêmico: <a href="https://www.domrock.net/">Dom Rock</a>
 
@@ -787,7 +788,7 @@ Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente 
 
 
    __- Hard Skills:__ <br>
-   Ferramenta de Auxilio para Metodologia<br>
+   Slack: Ferramenta de Auxilio para Metodologia<br>
 
    __- Soft Skills:__ <br>
    Organização <br>
@@ -797,3 +798,197 @@ Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente 
 </details>
 
 ----
+
+<details><summary>4º semestre</summary>
+
+
+<h3> 4º semestre - 2/2023 </h3>
+
+Parceiro Acadêmico: <a href="https://www.jaia.software/">Jaia</a>
+
+
+<h4>Link do repositório:</h4>
+
+<p align="left">
+ <a href="https://github.com/Data-Team23/Jaia">Acesse aqui</a>
+</p>
+
+<div align="center">
+
+<img src="Jaia.png" alt="Grupo Codados" width="300" height="290">
+
+
+
+</div>
+
+
+
+<h2>Jaia</h2>
+
+<h3>Descrição do Projeto</h3>
+Em um cenário onde a paisagem urbana se compõe de uma mistura de edifícios modernos e históricos, a empresa Jaia, apresentou um desafio significativo. A condução de inspeções prediais estava provando ser uma tarefa morosa e suscetível a imprecisões. Diante desse cenário, a Jaia buscou soluções inovadoras para otimizar esse processo crucial. A visão estratégica da empresa contemplou o desenvolvimento de um software de inspeção predial, projetado para revolucionar a abordagem atual. 
+
+
+<h4><li><b>Desafio Proposto</b></li></h4>
+        <p align="justify">
+       A plataforma concebida promete oferecer uma experiência intuitiva, capacitando os inspetores a documentar minuciosamente detalhes relevantes e capturar evidências visuais de forma eficaz. Adicionalmente, a geração instantânea de relatórios abastecerá a tomada de decisões embasadas. A Jaia, reconhecendo a necessidade de aprimorar a qualidade e eficiência das inspeções, direcionou seus esforços para o desenvolvimento desse software inovador. O resultado obtido transcendeu as expectativas iniciais, beneficiando não somente a empresa, mas também elevando o padrão das inspeções prediais na esfera urbana, contribuindo, assim, para uma maior segurança e excelência nas estruturas urbanas.
+	   </p>
+
+
+
+
+<summary><h2>Tecnologias Aplicadas</h2></summary>
+<img src="java.png" width="150" height="150">
+
+
+</p>
+          <a href="https://www.java.com/pt-BR/">JAVA</a>
+          <p align="justify">
+         Java é uma linguagem de programação orientada a objetos, lançada em 1995, conhecida por ser multiplataforma graças à JVM. É usada em aplicativos web, móveis e sistemas corporativos, valorizada por sua segurança e robustez. No projeto foi utilizado com um dos requisitos especificados e foi a principal linguagem para construção da aplicacão web. Abaixo tenho listadas as bibliotecas que utilizamos: </p>
+
+<img src="js.png" width="150" height="100">
+
+<a href="https://www.javascript.com/">JavaScript</a>
+          <p align="justify">
+         JavaScript é uma linguagem de programação usada para criar páginas da web interativas. É leve, dinâmica e funciona tanto no frontend quanto no backend. É essencial no desenvolvimento web, sendo compatível com navegadores e suportando frameworks como React e Angular.
+
+<img src="mysql.png" width="150" height="150">
+
+
+<a href="https://vuejs.org/">VUE</a>
+          <p align="justify">
+        Vue.js é um framework JavaScript progressivo usado para construir interfaces de usuário e aplicações web dinâmicas. É leve, fácil de aprender e foca em componentes reutilizáveis, facilitando a integração com projetos existentes. Ele combina simplicidade com recursos avançados, como gerenciamento de estado e roteamento, por meio de bibliotecas adicionais.
+
+<img src="html.png" width="150" height="100">
+
+
+<p>HTML</p>
+          <p align="justify">
+         HTML (Hypertext Markup Language) é uma linguagem de marcação de texto que serve para criar páginas web.
+		 
+		 
+<img src="oracle.png" width="150" height="100">
+
+
+<a href="https://www.oracle.com/br/database/">Oracle</a>
+          <p align="justify">
+         O Oracle Database é um sistema de banco de dados robusto e escalável, projetado para gerenciar grandes volumes de dados em empresas. Ele oferece alta segurança, disponibilidade e suporte para transações complexas, sendo popular em ambientes corporativos. </p>		 
+		 
+
+
+<h2>Contribuições Pessoais</h2>
+
+
+<details>
+    <summary>Backend</summary>
+
+  __Desenvolvimento do DDL (Modelagem de dados):__
+   Como desenvolvedora eu desenvolvi a modelagem de dados em DDL para que pudessemos ter a integridade e a normalização dos dados.
+
+Veja abaixo um exemplo do Script (Parcial):
+
+```
+create table endereco(
+    id_end number(2) constraint pk_id_end primary key
+    ,logradouro_end varchar(50) not null
+    ,numero_end number(10) not null
+    ,bairro_end varchar(50) not null
+    ,cidade_end varchar(50) not null
+    ,uf_end varchar(2) not null
+);
+create table cliente(
+    cnpj_cli number(14) constraint pk_cli_cnpj primary key
+    ,nome_cli varchar(100) not null
+    ,telefone_cli number(14) constraint uk_cli_tel unique not null
+    ,senha_cli varchar(200) not null
+    ,fk_id_end number(2)
+    ,constraint fk_cli_id_end foreign key(fk_id_end) references endereco(id_end)
+    );
+create table requisicao(
+    id_req number(2) constraint pk_req_id_req primary key
+    ,inspecao_req varchar(20) not null
+    ,descricao_req varchar(200) not null
+    ,status_req varchar(20) not null
+    ,data_abertura_req date default sysdate
+);
+```
+
+
+
+
+  __Desenvolvimento da classe de Departamento:__
+   Como desenvolvedora eu desenvolvi a classe de Departamento. Foi desenvolvido em Java e separado 4 classes, sendo elas:
+   
+   - Departamento Service 
+   - Departamento Repository
+   - Departamento Controller
+   -Interface: IDepartamento Service 
+   
+
+Veja abaixo um exemplo do Script (Parcial):
+
+__Departamento Service:__
+
+```
+@Service
+public class DepartamentoService implements IDepartamentoService {
+    
+    @Autowired
+    private DepartamentoRepository departRepo;
+    @Transactional
+    @Override
+    public Departamento novoDepartamento(Departamento departamento){
+        if(departamento == null||
+                departamento.getCod_depart() == null ||
+                departamento.getNome_depart() == null ||
+                departamento.getNome_depart().isBlank())
+            throw new IllegalArgumentException("Departamento com atributos inválidos");
+    Departamento departamentoNovo = departRepo.save(departamento);
+    return departamentoNovo;
+}
+```
+
+__Departamento Controller:__
+
+
+```
+@RestController
+@RequestMapping(value = "/departamentos")
+@CrossOrigin
+public class DepartamentoController {
+    @Autowired
+    private IDepartamentoService service;
+    @PostMapping
+    public Departamento novoDepartamento(@RequestBody Departamento departamento) {
+        return service.novoDepartamento(departamento);
+    }
+}
+```
+
+<h2>Lições Aprendidas</h2>
+
+
+<p>
+
+Como desenvolvedora, tive a oportunidade de aprender e aplicar técnicas avançadas em Java, utilizando a linguagem para criar soluções eficazes em minhas aplicações. Essa prática me permitiu aprimorar minhas habilidades e entender o valor real desses conceitos, aplicando com sucesso o que aprendi em sala de aula e elevando a qualidade dos projetos desenvolvidos.
+
+
+   __- Hard Skills:__ <br>
+   Java <br>
+   HTML <br>
+   Metodologia Ágil | Scrum
+
+   __- Soft Skills:__ <br>
+   Comunicação <br>
+   Proatividade <br>
+   Trabalho em equipe
+</p>
+
+
+
+
+</details>
+
+</details>
+
+-----
