@@ -1008,12 +1008,12 @@ Parceiro Acadêmico: <a href="https://tecsus.com.br/">Tecsus</a>
 </p>
 
 <div align="center">
-<img src="https://tecsus.com.br/" alt="Tecsus" width="500" height="97">
+<img src="https://th.bing.com/th/id/R.083c94fcf0deab6b1c4973a29192d1d9?rik=lX7%2fN9Y6DnDOTg&pid=ImgRaw&r=0" alt="Tecsus" width="500" height="97">
 
 </div>
 
 
-<h2>Dashboards Tecsus</h2>
+<h2>Sistema de Gerenciamento de Concessionárias | Tecsus</h2>
 
 <h3>Descrição do Projeto</h3>
 O Sistema Tecsus é um sistema de gerenciamento de dashboards.
