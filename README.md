@@ -991,4 +991,117 @@ Como desenvolvedora, tive a oportunidade de aprender e aplicar técnicas avança
 
 </details>
 
------
+
+----
+
+<details><summary>5º semestre</summary>
+
+<h3> 5º semestre - 1/2024 </h3>
+
+Parceiro Acadêmico: <a href="https://tecsus.com.br/">Tecsus</a>
+
+
+<h4>Link do repositório:</h4>
+
+<p align="left">
+ <a href="https://github.com/Data-Team23/Tecsus">Acesse aqui</a>
+</p>
+
+<div align="center">
+<img src="https://tecsus.com.br/" alt="Tecsus" width="500" height="97">
+
+</div>
+
+
+<h2>Dashboards Tecsus</h2>
+
+<h3>Descrição do Projeto</h3>
+O Sistema Tecsus é um sistema de gerenciamento de dashboards.
+
+<h4><li><b>Desafio Proposto</b></li></h4>
+        <p align="justify">
+        A TecSUS realiza a coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo. Cada conta coletada precisa ter todos os seus campos digitados e salvos em banco de dados para eventuais consultas e análises técnicas/financeiras que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. Cada unidade do cliente pode possuir vários contratos (água, energia ou gás), cada contrato pode possuir uma ou mais contas (faturas de água, energia ou gás) por mês. Todos esses contratos estão ligados a uma concessionária de abastecimento. A Tecsus possuem uma base de dados de unidades, contratos, contas e concessionárias desestruturada em arquivo texto, a empresa tem interesse em aplicar técnicas de ETL e utilizar ferramentas de visualização de dados do mercado.
+        </p>
+
+<details>
+<summary>Tecnologias Aplicadas</summary>
+<img src="https://www.digics.si/wp-content/uploads/2020/09/spring_boot_logo.png" width="300" height="150">
+
+</p>
+          <li><a href="https://spring.io/">Spring Framework</a></li>
+          <p align="justify">
+         Segundo <a href="https://www.treinaweb.com.br/blog/o-que-e-o-spring-boot/">TreinaWeb</a> o Spring Boot é um framework que torna fácil a criação de aplicações Spring autossuficientes e robustas, possibilitando a execução imediata. Contudo isso só é possível por conta da abordagem opinativa sobre a plataforma Spring e bibliotecas de terceiros, que permite ao desenvolvedor gastar o mínimo de tempo possível configurando o projeto, e sim codificando suas regras de negócio. Foi utilizado como o principal framework para o desenvolvimento da aplicação web e foi de grande importância para o mesmo, facilitando o processo ao longo das sprints.</p>
+          <img src="https://logodownload.org/wp-content/uploads/2022/12/figma-logo-1.png" height="150">
+          <li><a href="https://www.figma.com/">Figma</a></li>
+          <p align="justify">
+          Segundo <a href="https://www.alura.com.br/artigos/figma">Alura</a> o Figma é uma plataforma colaborativa para construção de design de interfaces e protótipos, pertencente a empresa Fima, Inc. O objetivo era o de criar uma ferramenta que trouxesse colaboração entre pessoas e times, permitindo criar um produto para as mais diversas plataformas, mantendo a acessibilidade do sistema. Foi utilizado para o desenvolvimento do Front-end podendo colaborar de forma crucial para o desenvolvimento das telas em geral do projeto.</p>
+          <img src="https://logospng.org/download/react/logo-react-1024.png" height="150">
+          <li><a href="https://react.dev/">React</a></li>
+          <p align="justify">
+          O React, também conhecido como React.js ou ReactJS, é uma biblioteca de código aberto JavaScript amplamente utilizada para construir interfaces de usuário (UI) interativas e dinâmicas. É um componente fundamental no desenvolvimento de aplicativos web modernos e é especialmente popular para a criação de interfaces de usuário de página única (Single Page Applications - SPAs), de acordo
+          <a href="https://kenzie.com.br/blog/react/.">Kenzie</a>. O React foi utilizado também para o desenvolvimento em parte do Front-end assim colaborando com a parte visual utilizando bibliotecas que apoiaram no desenvolvimento dos Dashboards.</p>
+          <img src="https://th.bing.com/th/id/R.55692e7a8d3fa0da6a2325630ad177d1?rik=MPH0G8OKchACqA&pid=ImgRaw&r=0" height="150">
+          <li><a href="https://www.apachefriends.org/pt_br/index.html">XAMPP</a></li>
+          <p align="justify">
+         Segundo  <a href="https://www.techtudo.com.br/noticias/2012/02/o-que-e-xampp-e-para-que-serve.ghtml">TechTudo</a> o XAMPP é um pacote com os principais servidores de código aberto do mercado, incluindo FTP, banco de dados MySQL e Apache com suporte as linguagens PHP e Perl. Foi utilizado para acesso ao nosso banco local como um servidor local.</p>
+         <img src="https://th.bing.com/th/id/R.a0d754098a11d27b496dd867e9bcb26e?rik=ktyhKrtGerv2SA&riu=http%3a%2f%2fjcpdev.com%2fwp-content%2fuploads%2f2015%2f06%2fmysql-logo_2800x2800_pixels1.png&ehk=stX862qDhFHMNl5t8sy91A9mlH6zUShTkbwH8E8cxsc%3d&risl=&pid=ImgRaw&r=0" height="150">
+         <li><a href="">MySQL Workbench</a></li>
+         <p align="justify">
+         Segundo <a href="https://www.danielimamura.com.br/manual-completo-do-mysql-workbench/">Danieli Mamura</a> MySQL Workbench é a ferramenta oficial do MySQL. É um ambiente completo que permite além de realizar consultas, criar diagramas e trabalhar com engenharia reversa.Utilizamos para o desenvolvimento do DDL das tabelas que utilizamos em nossa aplicação.
+         </p>
+         </details>
+
+<h3>Contribuições Pessoais</h3>
+
+
+<details>
+    <summary>Documentação do Readme do PBI</summary>
+
+  __docs: Documentação do Readme do PBI:__
+   
+
+```
+# Documentação | Dashboard Power BI
+## Objetivo
+O objetivo do Dashboard é fornecer insights sobre as contas de Água e Energia para o cliente (Tecsus), permitindo que tenham visibilidade de seus contratos e faturas. Isso possibilita tomadas de decisões mais assertivas, baseadas nos dados disponíveis.
+## Fonte de Dados
+As principais fontes de dados são baseadas nas quatro planilhas fornecidas pelo cliente, que já estão armazenadas em nosso banco de dados.
+[...]
+```
+
+
+<a href=https://github.com/Data-Team23/Tecsus-backend>Acesse aqui o repositório</a>
+
+</details>
+
+
+
+
+ <details>
+    <summary>Metodologia Ágil</summary>
+<p>Eu pude contribuir como Desenvolvedora na parte de versionamento do Dashboard.
+Sendo as atividades desempenhadas:
+</p>
+ 
+
+</details>
+
+<h3>Lições Aprendidas</h3>
+
+
+<p>
+Como Desenvolvedora pude me desenvolver em Raciocínio Lógico e aprender mais sobre Spring Boot e ver como utilizá-lo para o desenvolvimento de projetos.E além da parte do BackEnd pude me desenvolver mais focada em Banco de Dados utilizando os conhecimentos passados em sala de aula e poder aplicar para desevolver a Modelagem dos dados.
+
+
+   __- Hard Skills:__ <br>
+   Java (Spring Boot) <br>
+   Modelagem em Banco de Dados
+
+
+   __- Soft Skills:__ <br>
+   Organização <br>
+   Proatividade
+</p>
+
+
+</details>
